@@ -1,4 +1,4 @@
-FROM golang:1.9.1
+FROM golang:1.12.7
 
 WORKDIR /go/src/github.com/santiagoaldanondo/outcrawl/api
 COPY api .
