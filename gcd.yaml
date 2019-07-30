@@ -17,7 +17,7 @@ spec:
       containers:
       - name: gcd
         image: local/gcd
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         ports:
         - name: gcd-service
           containerPort: 3000
